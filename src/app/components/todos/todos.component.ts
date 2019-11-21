@@ -6,9 +6,9 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./todos.component.css"]
 })
 export class TodosComponent implements OnInit {
-  constructor() {
-    alert("okokokok");
-  }
+  constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    alert("is this componentsDidMount ?");
+  }
 }
